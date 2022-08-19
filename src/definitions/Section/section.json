@@ -1,0 +1,36 @@
+{
+  "component_name": "Section",
+  "stylesheet_classes": [
+    {
+      "selector": ".Section",
+      "attributes": {
+        "display": "flex"
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "LayoutDirection",
+      "values": ["row", "column"]
+    }
+  ],
+  "props": [
+    {
+      "name": "style",
+      "type": "any",
+      "optional": true
+    },
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false
+    },
+    {
+      "name": "layoutDirection",
+      "type": "LayoutDirection",
+      "optional": true,
+      "defaultValue": "column"
+    }
+  ],
+  "ui": "section.xml"
+}

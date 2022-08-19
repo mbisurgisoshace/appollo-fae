@@ -1,0 +1,16 @@
+<section>
+  <!-- Styles will set inline styles on the element -->
+  <styles> 
+    
+  </styles>
+  <!-- Classnames will set styles on the element base on a 
+    definition on another file or object in the code
+  -->
+  <classnames>
+  
+  </classnames>
+  <!-- What should be render on the UI -->
+  <render>
+    <children />
+  </render>
+</section>
